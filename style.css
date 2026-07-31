@@ -437,7 +437,7 @@ a {
     .masonry-small {
         height: 250px;
     }
-    .news-grid {
+    .news-cards-grid {
         grid-template-columns: 1fr;
     }
     .blog-post-header h1 {
