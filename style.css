@@ -52,7 +52,7 @@ a {
     letter-spacing: -0.5px;
 }
 .logo .dot {
-    color: #e31837;
+    color: #111;
 }
 .simple-nav {
     display: flex;
@@ -67,7 +67,7 @@ a {
     transition: color 0.2s;
 }
 .simple-nav a:hover, .simple-nav a.active {
-    color: #e31837;
+    color: #111;
 }
 
 /* Typography for Headlines */
@@ -138,10 +138,10 @@ a {
 }
 
 .tag {
-    background: #e31837;
+    background: #111;
     color: white;
-    padding: 4px 10px;
-    font-size: 0.75rem;
+    padding: 6px 12px;
+    font-size: 0.7rem; letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 4px;
@@ -163,7 +163,7 @@ a {
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
     display: flex;
     flex-direction: column;
@@ -172,7 +172,7 @@ a {
 
 .news-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.08);
 }
 
 .news-card img {
@@ -251,7 +251,7 @@ a {
 }
 
 .blog-list-item .tag {
-    color: #e31837;
+    color: #111;
     font-weight: 700;
     font-size: 0.85rem;
     text-transform: uppercase;
@@ -283,7 +283,7 @@ a {
 .contact-card svg {
     width: 32px;
     height: 32px;
-    stroke: #e31837;
+    stroke: #111;
     fill: none;
     margin-bottom: 1rem;
 }
@@ -345,7 +345,7 @@ a {
     text-decoration: none;
 }
 .footer-logo .dot {
-    color: #e31837;
+    color: #111;
 }
 .footer-nav {
     display: flex;
@@ -359,7 +359,7 @@ a {
     text-transform: uppercase;
 }
 .footer-nav a:hover {
-    color: #e31837;
+    color: #111;
 }
 .footer-bottom {
     text-align: center;
