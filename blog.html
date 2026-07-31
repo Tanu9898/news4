@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Pollywood Insider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Simple Header -->
+    <header class="simple-header">
+        <div class="header-container">
+            <span class="logo">Pollywood Insider</span>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="simple-nav" id="nav-menu">
+                <a href="index.html" class="">HOME</a>
+                <a href="blog.html" class="active">BLOG</a>
+                <a href="contact.html" class="">CONTACT US</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h1 class="headline-serif blog-header">Latest Articles</h1>
+        
+        <div class="blog-list">
+            <article class="blog-list-item">
+                <a href="sachin-dahar-music-reflects-new-wave-independent-punjabi-artists.html">
+                    <img src="assets/imgs/sharab_poster.jpeg" alt="Sachin Dahar">
+                </a>
+                <div class="content">
+                    <div class="tag">MUSIC</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="sachin-dahar-music-reflects-new-wave-independent-punjabi-artists.html">Sachin Dahar's Music Reflects the New Wave of Independent Punjabi Artists</a></h2>
+                    <p class="hero-excerpt">Discover how Sachin Dahar is shaping his musical identity through original Punjabi songs, creative releases, and a growing presence in the independent music industry.</p>
+                </div>
+            </article>
+
+            <article class="blog-list-item">
+                <a href="blog-2.html">
+                    <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Coach">
+                </a>
+                <div class="content">
+                    <div class="tag">SPORTS</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-2.html">Stephen Fleming Named As New Test Coach</a></h2>
+                    <p class="hero-excerpt">Fleming is set to commence his new position following the recent management restructuring, promising a new era for the national team's test format strategy.</p>
+                </div>
+            </article>
+
+            <article class="blog-list-item">
+                <a href="blog-3.html">
+                    <img src="https://images.unsplash.com/photo-1531547255897-f400dc1b7de2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Player">
+                </a>
+                <div class="content">
+                    <div class="tag">SPORTS</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-3.html">'Cap No. 278 Signing Off': Veteran Retires From All Forms Of Sport</a></h2>
+                    <p class="hero-excerpt">The veteran player has announced his retirement from international sports, ending a legendary career filled with memorable moments and numerous accolades.</p>
+                </div>
+            </article>
+            <article class="blog-list-item">
+                <a href="blog-4.html">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tech">
+                </a>
+                <div class="content">
+                    <div class="tag">TECH</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-4.html">Tech Giants Announce New AI Breakthrough</a></h2>
+                    <p class="hero-excerpt">A coalition of tech companies unveiled a new model promising to revolutionize productivity and completely change the way we interact with computers on a daily basis.</p>
+                </div>
+            </article>
+
+            <article class="blog-list-item">
+                <a href="blog-5.html">
+                    <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Business">
+                </a>
+                <div class="content">
+                    <div class="tag">BUSINESS</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-5.html">Global Markets Rally As Tech Stocks Surge</a></h2>
+                    <p class="hero-excerpt">Investors are optimistic as quarterly earnings reports shatter previous Wall Street expectations, leading to a massive surge across all major indices today.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+        <!-- Simple Footer -->
+    <footer class="simple-footer">
+        <div class="footer-top">
+            <span class="footer-logo">Pollywood Insider</span>
+            <nav class="footer-nav">
+                <a href="index.html">HOME</a>
+                <a href="blog.html">BLOG</a>
+                <a href="contact.html">CONTACT US</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Pollywood Insider. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        if(hamburger) {
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('show-nav');
+            });
+        }
+    </script>
+</body>
+</html>
