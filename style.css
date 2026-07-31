@@ -388,6 +388,7 @@ a {
 @media (max-width: 900px) {
     .header-container {
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     .hamburger {
         display: flex;
@@ -425,8 +426,24 @@ a {
         flex-wrap: wrap;
         justify-content: center;
     }
+    
+    /* New fixes for News4 */
+    .featured-masonry {
+        grid-template-columns: 1fr;
+    }
+    .masonry-main {
+        height: 350px;
+    }
+    .masonry-small {
+        height: 250px;
+    }
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+    .blog-post-header h1 {
+        font-size: 2rem;
+    }
 }
-
 
 /* Blog Post specific styles */
 .blog-post-container {
