@@ -424,3 +424,45 @@ a {
         justify-content: center;
     }
 }
+
+
+/* Blog Post specific styles */
+.blog-post-container {
+    width: 100%;
+    padding: 0 15px;
+}
+.blog-post-header {
+    max-width: 800px;
+    margin: 3rem auto 2rem;
+    text-align: center;
+}
+.blog-post-header h1 {
+    font-size: 2.8rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.blog-post-image {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 550px;
+    object-fit: cover;
+    margin: 0 auto 3rem;
+    display: block;
+    border-radius: 12px;
+}
+.blog-post-content {
+    max-width: 750px;
+    margin: 0 auto 5rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #222;
+}
+.blog-post-content p {
+    margin-bottom: 1.8rem;
+}
+.blog-post-content h2 {
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
