@@ -138,6 +138,8 @@ a {
 }
 
 .tag {
+    display: inline-block;
+    width: max-content;
     background: #111;
     color: white;
     padding: 6px 12px;
@@ -251,11 +253,11 @@ a {
 }
 
 .blog-list-item .tag {
-    color: #111;
     font-weight: 700;
     font-size: 0.85rem;
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: white;
 }
 
 /* Contact Page */
