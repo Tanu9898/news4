@@ -97,17 +97,18 @@ a {
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    height: 100%;
-    background: #000;
+    height: auto;
+    background: transparent;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .masonry-main a {
     display: block;
-    height: 100%;
+    height: auto;
 }
 .masonry-main img {
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    width: 100%;
+    display: block;
 }
 
 .masonry-side {
@@ -188,7 +189,7 @@ a {
 .news-card img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    display: block;
 }
 
 .card-content {
@@ -251,7 +252,7 @@ a {
 .blog-list-item img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    display: block;
 }
 
 .blog-list-item .content {
